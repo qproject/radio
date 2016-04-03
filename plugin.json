@@ -1,0 +1,9 @@
+{
+  "name": "radio",
+  "version": "0.0.1",
+  "main": "reader.js",
+  "public": {
+    "reader_template": "./radio.jade",
+    "reader_style": "./radio.styl"
+  }
+}

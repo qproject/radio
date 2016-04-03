@@ -1,0 +1,11 @@
+span(decorator="block:question")
+    | {{ question }}
+.container-fluid(decorator="block:content")
+    .row.module__radio
+        .col-sm-2.col-sm-offset-5
+            | {{ #items: item }}
+            .radio
+                label
+                    input(type="radio" name="module_radio" checked="{{ value }}")
+                    | {{ title }}
+            | {{ /items }}
